@@ -1,0 +1,98 @@
+body{
+    background-image: url("./bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_container{
+    width: 350px;
+    height: 550px;        
+    margin: 25px auto;
+    position: relative;
+}
+
+.calculator{
+    width: 280px;
+    height: 500px;
+    background-color: floralwhite;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 5px;
+}
+
+.result {
+    height: 120px;    
+}
+
+.keyboard {
+    height: 400px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: darkgray;
+}
+
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 20px 20px;
+    font-size: 30px;
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;    
+}
+
+.number, .empty {
+    background-color: floralwhite;
+}
+
+.number, .operator {
+    cursor: pointer;
+}
+
+.number:active, .operator:active{
+    font-size: 13px;
+}
+
+/* .number:focus {
+    outline: 0;
+} */
+
+button:nth-child(4){
+    background-color:darkseagreen;
+    font-size: 20px;
+}
+
+button:nth-child(8) {
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+
+button:nth-child(12) {
+    background-color:khaki;
+    font-size: 20px;
+}
+
+button:nth-child(16) {
+    background-color:mediumaquamarine;
+    font-size: 20px;    
+}
+
+button:nth-child(20) {
+    background-color:sienna;
+    font-size: 20px;
+}
